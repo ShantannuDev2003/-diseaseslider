@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 body {
@@ -133,4 +132,30 @@ body {
 
 .indicator.active {
   background-color: #1e88e5;
+}
+
+/* Additional styles for new cards */
+
+#diabetes .card-content h2 {
+  color: #ffffff;
+}
+
+#diabetes .card-actions button {
+  background-color:#1e88e5;
+}
+
+#diabetes .card-actions button:hover {
+  background-color: #1565c0;
+}
+
+#heart-disease .card-content h2 {
+  color: #ffffff;
+}
+
+#heart-disease .card-actions button {
+  background-color: #1e88e5;
+}
+
+#heart-disease .card-actions button:hover {
+  background-color: #1565c0;
 }

@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const backgrounds = [
     'url("lungs.gif")',
     'url("cancer.gif")',
-    'url("covid.gif")'
+    'url("covid.gif")',
+    'url("diabetes.gif")', // New background for Diabetes
+    'url("heart-disease.gif")' // New background for Heart Disease
   ];
 
   let currentIndex = 0;
